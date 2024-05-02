@@ -1,24 +1,19 @@
-h1 {
-    text-align: center;
-}
 a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: larger;
-    text-decoration-line:none;
-  }
-a:hover {
- text-decoration-line:underline;
+    text-decoration-line: none;
 }
 
-.back {
+a:hover {
+    text-decoration-line: underline;
+}
+
+/* .back {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
-    text-decoration-line:none; 
+    text-decoration-line: none;
 }
+
 .back:hover {
-    text-decoration-line:underline;
-   }
+    text-decoration-line: underline;
+} */

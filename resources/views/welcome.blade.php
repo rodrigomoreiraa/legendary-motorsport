@@ -1,14 +1,37 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <link rel="stylesheet" href="/css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
-</head>
-<body>  
-    
-    <h1>Legendary Motorsport</h1>
-    <a href="/details_car">Anúncio</a>
-</body>
-</html>
+@extends('layouts.main')
+@section('title', 'Legendary Motorsport')
+
+@section ('content')
+<header>
+    <h1 class="text-center mt-3">Legendary Motorsport</h1>
+</header>
+<div class="container">
+    <div class="row align-itens-center mt-5 mb-5">
+        <div class="col">
+            <div class="card rounded-0" style="width: 20rem;">
+                <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Esto é um anúncios lkmijopi</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card rounded-0" style="width: 20rem;">
+                <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Esto é um anúncios lkmijopi</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card rounded-0" style="width: 20rem;">
+                <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Esto é um anúncios lkmijopi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@endsection
