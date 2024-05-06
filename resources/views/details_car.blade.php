@@ -6,5 +6,5 @@
 <header>
     <a href="/">Legendary Motorsport</a>
 </header>
-<p> Página de detalhes dos anúncios dos carros</p>
+<p>Página de detalhes dos anúncios dos carros</p>
 @endsection

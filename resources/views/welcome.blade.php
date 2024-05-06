@@ -5,6 +5,7 @@
 <header>
     <h1 class="text-center mt-3">Legendary Motorsport</h1>
 </header>
+<button type="button" class="btn"><a href="details_car">Details Car</a></button>
 <div class="container">
     <div class="row align-itens-center mt-5 mb-5">
         <div class="col">
