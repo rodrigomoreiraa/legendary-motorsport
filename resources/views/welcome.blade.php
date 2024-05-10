@@ -18,6 +18,7 @@
             </div>
         </div>
         <div class="col">
+            c
             <!-- card -->
             <div class="card rounded-0" style="width: 20rem;">
                 <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
