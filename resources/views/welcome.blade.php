@@ -42,7 +42,7 @@
                         <img src="https://place-hold.it/200x100" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <p class="card-text">Esto é um anúncios lkmijopi</p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                            <a href="/details_car" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
                     <!-- /card -->
@@ -53,7 +53,7 @@
                         <img src="https://place-hold.it/200x100" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <p class="card-text">Esto é um anúncios lkmijopi</p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                            <a href="/details_car" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
                     <!-- /card -->
@@ -64,7 +64,7 @@
                         <img src="https://place-hold.it/200x100" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <p class="card-text">Esto é um anúncios lkmijopi</p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                            <a href="/details_car" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         <img src="https://place-hold.it/200x100" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <p class="card-text">Esto é um anúncios lkmijopi</p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                            <a href="/details_car" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
                     <!-- /card -->
@@ -88,7 +88,7 @@
                         <img src="https://place-hold.it/200x100" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <p class="card-text">Esto é um anúncios lkmijopi</p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                            <a href="/details_car" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
                     <!-- /card -->
@@ -99,7 +99,7 @@
                         <img src="https://place-hold.it/200x100" class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <p class="card-text">Esto é um anúncios lkmijopi</p>
-                            <a href="#" class="btn btn-danger">Go somewhere</a>
+                            <a href="/details_car" class="btn btn-danger">Go somewhere</a>
                         </div>
                     </div>
                     <!-- card -->
