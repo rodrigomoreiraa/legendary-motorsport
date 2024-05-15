@@ -1,11 +1,12 @@
 #header {
     background-color: #000000;
 }
-
-#header .row {
-    padding: 45px 0px
+#header img {
+width:800px;
 }
-
-#content {
+ #contente {
     background-color:#8E2121;
+}
+footer {
+    color: white;
 }

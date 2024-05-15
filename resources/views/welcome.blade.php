@@ -1,155 +1,94 @@
-@extends('layouts.main')
-@section('title', 'Legendary Motorsport')
-
-@section ('content')
-<header>
-    <h1 class="text-center mt-3">Legendary Motorsport</h1>
-</header>
-<button type="button" class="btn"><a href="details_car">Details Car</a></button>
-<div class="container">
-    <!-- card -->
-    <div class="row align-itens-center mt-5 mb-5">
-        <div class="col">
-            <div class=" card rounded-0" style="width: 20rem;">
-                <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Esto é um anúncios lkmijopi</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            c
-            <!-- card -->
-            <div class="card rounded-0" style="width: 20rem;">
-                <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Esto é um anúncios lkmijopi</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <!-- card -->
-            <div class="card rounded-0" style="width: 20rem;">
-                <img src="https://place-hold.it/300x30" class="card-img-top rounded-0" alt="...">
-                <div class="card-body">
-                    <p class="card-text">Esto é um anúncios lkmijopi</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="col">
-    <!-- card -->
-    <div class="card rounded-0" style="width: 20rem;">
-        <img src="https://place-hold.it/300x300" class="card-img-top rounded-0" alt="...">
-        <div class="card-body">
-            <p class="card-text">Esto é um anúncios lkmijopi</p>
-        </div>
-    </div>
-</div>
-<div class="col">
-    <!-- card -->
-    <div class="card rounded-0" style="width: 20rem;">
-        <img src="https://place-hold.it/300x30" class="card-img-top rounded-0" alt="...">
-        <div class="card-body">
-            <p class="card-text">Esto é um anúncios lkmijopi</p>
-        </div>
-    </div>
-</div>
-<div class="col">
-    <!-- card -->
-    <div class="card rounded-0" style="width: 20rem;">
-        <img src="https://place-hold.it/300x30" class="card-img-top rounded-0" alt="...">
-        <div class="card-body">
-            <p class="card-text">Esto é um anúncios lkmijopi</p>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-@extends('layouts.main')
-@section('title', 'Legendary Motorsport')
-@section ('content')
-
-<section id="header">
-    <div class="container">
-        <header>
-            <div class="row">
-                <div class="col-xl-8">
-                    <h1 class="text-center mt-3">Legendary Motorsport</h1>
-                </div>
-            </div>
-        </header>
-    </div>
-</section>
-<section id="content">
-    <div class="container text-center">
-        <div class="row row-cols-3">
-            <div class="col">
-                <!-- card -->
-                <div class="card rounded-0" style="width:18rem;">
-                    <img src="https://place-hold.it/200x60" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Esto é um anúncios lkmijopi</p>
+        @extends('layouts.main')
+        @section('title', 'Legendary Motorsport')
+        @section ('content')
+    <section id="contente">
+            <div class="container">
+                <!-- Botões de filtrar -->
+                <div class="row row-cols-2 row-cols-sm-5 g-2">
+                    <div class="col">
+                        <button type="button" class="btn btn-danger w-100 px-2 rounded-1">EM DESTAQUE</button>
                     </div>
-                </div>
-                <!-- /card -->
-            </div>
-            <div class="col">
-                <!-- card -->
-                <div class="card rounded-0" style="width:18rem;">
-                    <img src="https://place-hold.it/200x60" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Esto é um anúncios lkmijopi</p>
+                    <div class="col">
+                        <button type="button" class="btn btn-danger w-100 px-2 rounded-1">2 PORTAS</button>
                     </div>
-                </div>
-                <!-- /card -->
-            </div>
-            <div class="col">
-                <!-- card -->
-                <div class="card rounded-0" style="width:18rem;">
-                    <img src="https://place-hold.it/200x60" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Esto é um anúncios lkmijopi</p>
+                    <div class="col">
+                        <button type="button" class="btn btn-danger w-100 px-2 rounded-1">4 PORTAS</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-danger w-100 px-2 rounded-1">MOTOS</button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-danger w-100 px-2 rounded-1">ESPECIAL</button>
                     </div>
                 </div>
             </div>
-            <!-- /card -->
+            <!-- Seção dos aunúncios -->
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-md-3 py-2">
+                    <div class="col">
+                        <div class="card text-end rounded-0" style="width:26 rem;">
+                            <img src="https://place-hold.it/300x200" class="card-img-top" alt="...">
+                            <div class="card-body rounded-0">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="card-text text-start">Esto é um anúncios lkmijopi</p>
+                                    </div>
+                                    <div class="col">
+                                        <a href="/details_car" class="btn btn-danger">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-end rounded-0" style="width:26 rem;">
+                            <img src="https://place-hold.it/300x200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="/details_car" class="btn btn-danger btn-lg">Go somewhere</a>
+                                <p class="card-text float-start">Esto é um anúncios lkmijopi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-end rounded-0" style="width:26 rem;">
+                            <img src="https://place-hold.it/300x200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="/details_car" class="btn btn-danger btn-lg">Go somewhere</a>
+                                <p class="card-text float-start">Esto é um anúncios lkmijopi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
+                    <div class="col">
+                        <div class="card text-end rounded-0" style="width:26 rem;">
+                            <img src="https://place-hold.it/300x200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="/details_car" class="btn btn-danger btn-lg">Go somewhere</a>
+                                <p class="card-text float-start">Esto é um anúncios lkmijopi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-end rounded-0" style="width:26 rem;">
+                            <img src="https://place-hold.it/300x200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="/details_car" class="btn btn-danger btn-lg">Go somewhere</a>
+                                <p class="card-text float-start">Esto é um anúncios lkmijopi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-2">
+                        <div class="card text-end rounded-0" style="width:26 rem;">
+                            <img src="https://place-hold.it/300x200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a href="/details_car" class="btn btn-danger btn-lg">Go somewhere</a>
+                                <p class="card-text float-start">Esto é um anúncios lkmijopi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row row-cols-3">
-            <div class="col">
-                <!-- card -->
-                <div class="card rounded-0" style="width:18rem;">
-                    <img src="https://place-hold.it/200x60" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Esto é um anúncios lkmijopi</p>
-                    </div>
-                </div>
-                <!-- /card -->
-            </div>
-            <div class="col">
-                <!-- card -->
-                <div class="card rounded-0" style="width:18rem;">
-                    <img src="https://place-hold.it/200x60" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Esto é um anúncios lkmijopi</p>
-                    </div>
-                </div>
-                <!-- /card -->
-            </div>
-            <div class="col">
-                <!-- card -->
-                <div class="card rounded-0" style="width:18rem;">
-                    <img src="https://place-hold.it/200x60" class="card-img-top rounded-0" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Esto é um anúncios lkmijopi</p>
-                    </div>
-                </div>
-                <!-- card -->
-            </div>
-            <!-- /card -->
-        </div>
-        <div />
-
-
-        @endsection
+    </section> 
+            @endsection

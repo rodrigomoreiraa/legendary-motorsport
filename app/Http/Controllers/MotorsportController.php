@@ -1,13 +1,16 @@
 <?php
 
 namespace App\Http\Controllers;
-
-// use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+
 
 class MotorsportController extends Controller
 {
     public function index() {
-    return view('welcome');    
+        return view('welcome');
+    }
+    public function create() {
+        return view('anuncio.create');
     }
 }
