@@ -7,9 +7,6 @@ Route::get('/', [MotorsportController::class, 'index'] );
 
 Route::get('/anuncio/create', [MotorsportController::class, 'create'] );
 
-Route::get('/details_model/{model}', function ($model) {
-    return view('details_model', ['model' => $model]);
-});
-Route::get('/details_car', function () {
-    return view('details_car');
+Route::get('/car_details', function () {
+    return view('car_details');
 });

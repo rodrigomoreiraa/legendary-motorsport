@@ -1,7 +1,7 @@
         @extends('layouts.main')
         @section('title', 'Legendary Motorsport')
         @section ('content')
-    <section id="contente">
+        <section id="contente">
             <div class="container">
                 <!-- Botões de filtrar -->
                 <div class="row row-cols-2 row-cols-sm-5 g-2">
@@ -23,6 +23,12 @@
                 </div>
             </div>
             <!-- Seção dos aunúncios -->
+            @foreach($vehicles_ads as $vehicle_ad)
+                 <div>
+                    <h2>{{$vehicle_ad->title }}</h2>
+                    <p>{{$vehicle_ad->description }}</p>
+                </div>
+            @endforeach
             <div class="container text-center">
                 <div class="row row-cols-1 row-cols-md-3 py-2">
                     <div class="col">
@@ -34,7 +40,7 @@
                                         <p class="card-text text-start">Esto é um anúncios lkmijopi</p>
                                     </div>
                                     <div class="col">
-                                        <a href="/details_car" class="btn btn-danger">Go somewhere</a>
+                                        <a href="/car-details" class="btn btn-danger">Go somewhere</a>
                                     </div>
                                 </div>
                             </div>
