@@ -3,8 +3,6 @@
 @section('title', 'Detalhes do Carro')
 
 @section('content')
-<header>
-    <a href="/">Legendary Motorsport</a>
-</header>
-<p>Página de detalhes dos anúncios dos carros</p>
+
+<h1 class="text-center">Página de detalhes dos anúncios dos carros</h1>
 @endsection
